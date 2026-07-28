@@ -32,8 +32,24 @@ h1 {
     line-height: 1.5;
 }
 
-p {
+.text {
     font-size: 55px;
+    font-weight: normal;
+    font-style: italic;
+    color: grey;
+    line-height: 1.5;
+}
+
+.date {
+    font-size: 25px;
+    font-weight: normal;
+    font-style: italic;
+    color: grey;
+    line-height: 1.5;
+}
+
+.author{
+    font-size: 25px;
     font-weight: normal;
     font-style: italic;
     color: grey;
