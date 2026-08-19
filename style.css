@@ -25,7 +25,7 @@ article {
 }
 
 h1 {
-    font-size: 100px;
+    font-size: 50px;
     font-weight: bold;
     font-style: normal;
     color: black;
@@ -33,15 +33,24 @@ h1 {
 }
 
 .text {
-    font-size: 55px;
+    font-size: 30px;
     font-weight: normal;
     font-style: italic;
     color: grey;
     line-height: 1.5;
+
+    padding: 0 60px;
+
+    display: flex;
+    margin: 0;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
 .date {
-    font-size: 25px;
+    font-size: 20px;
     font-weight: normal;
     font-style: italic;
     color: grey;
@@ -49,7 +58,7 @@ h1 {
 }
 
 .author{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: normal;
     font-style: italic;
     color: grey;
@@ -57,7 +66,7 @@ h1 {
 }
 
 h2 {
-    font-size: 65px;
+    font-size: 25px;
     font-weight: normal;
     font-style: normal;
     color: black;
