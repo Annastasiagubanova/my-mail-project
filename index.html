@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css"/>
     <title>Письмо</title>
 </head>
 <body>
@@ -17,14 +18,36 @@
     <article>
         <h2>Галерея</h2>
         <div class="gallery">
-            <img src="img/1.jpg" alt="1">
-            <img src="img/2.jpg" alt="2">
-            <img src="img/3.jpg" alt="3">
-            <img src="img/4.jpg" alt="4">
-            <img src="img/5.jpg" alt="5">  
+            <a href="img/1.jpg" data-fancybox="gallery">
+                <img src="img/1.jpg" alt="1">  
+            </a>
+            <a href="img/2.jpg" data-fancybox="gallrey">
+                <img src="img/2.jpg" alt="2">
+            </a>
+            <a href="img/2.jpg" data-fancybox="gallrey">
+                <img src="img/3.jpg" alt="3">
+            </a>
+            <a href="img/2.jpg" data-fancybox="gallrey">
+                <img src="img/4.jpg" alt="4">
+            </a>
+            <a href="img/2.jpg" data-fancybox="gallrey">
+                <img src="img/5.jpg" alt="5">
+            </a>
         </div>
-
     </article>
+
+<script>
+    Fancybox.bind('[data-fancybox="gallery"]', {
+        // Здесь можно настроить параметры при необходимости
+        Toolbar: {
+        display: {
+            left: ["infobar"],
+            middle: [],
+            right: ["slideshow", "fullscreen", "close"],
+        },
+        },
+    });
+</script>
 
 </body>
 </html>

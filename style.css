@@ -40,9 +40,6 @@ h1 {
     line-height: 1.5;
 
     padding: 0 60px;
-
-
-
 }
 
 .date {
@@ -80,9 +77,18 @@ h2 {
     padding: 10px 20px;
 }
 
-.gallery img {
+
+.gallery a {
     flex: 1;
     max-width: 15%;
+    min-width: 120px;
     height: auto;
     object-fit: cover;
+}
+
+.gallery a img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
